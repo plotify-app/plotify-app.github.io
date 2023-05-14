@@ -184,6 +184,7 @@ class App extends Component {
                   Log in with Spotify
                 </a>
                 <p className="hi"> made with &#60;3 by Kaily Liu and Joyce He </p>
+                <p className="hi"> note: this app is not published - please email one of us to join the user list :) </p>
               </div> 
             )}
           </div> 
