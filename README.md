@@ -1,4 +1,4 @@
-## Plotify (https://plotifyapp.github.io/)
+## Plotify (https://plotify-app.github.io/)
 
 Uses the Spotify API to get the most played songs of the current user and graphs them by valence and popularity.
 
