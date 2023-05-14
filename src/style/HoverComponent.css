@@ -1,0 +1,155 @@
+.songInfo {
+    background-color: #000;
+    color: #fff;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(52, 51, 51, 0.5);   
+    border: 1px solid grey;
+    border-radius: 0.5em;
+    width: 180px;
+}
+
+.smallSongInfo {
+    background-color: #000;
+    color: #fff;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(52, 51, 51, 0.5);   
+    border: 1px solid grey;
+    border-radius: 0.5em;
+    width: 100px;
+}
+
+.mobile {
+    background-color: #000;
+    color: #fff;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(52, 51, 51, 0.5);   
+    border: 1px solid grey;
+    border-radius: 0.5em;
+    margin: auto;
+    width: 16rem;
+    margin-top: 2vh;
+}
+
+.container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.name { 
+    margin: 5px;
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.artist { 
+    margin: 5px;
+    margin-top: 0;
+    text-align: left;
+    font-size: xx-small; 
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.left {
+    text-align: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+.right {
+    text-align: left;
+    width: 48%;
+}
+
+.list {
+    display: flex;
+}
+
+.top10 {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+    width: 50%;
+    font-size: x-large;
+} 
+
+.learnMore { 
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 0;
+    text-align: left;
+    font-size: x-small;
+    margin-bottom: 10px;
+    color: #1DB954;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.loading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: left;
+}
+
+.loadingTime {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: left;
+    font-size: x-small;
+    margin-bottom: 10px;
+    color: #1DB954;
+}
+
+.topzz {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.songCover {
+    height: 50px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .left {
+        font-size: 14px;
+    }
+
+    .right {
+        font-size: 14px;
+    }
+
+    .top10 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .left {
+        font-size: 3vw;
+    }
+
+    .right {
+        font-size: 3vw;
+    }
+
+    .top10 {
+        font-size: 4vw;
+    }
+}

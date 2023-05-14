@@ -1,0 +1,125 @@
+/** graph components **/
+.header {
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.sorry {
+    font-size: 12px;
+    margin-top: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    align-items: center;
+}
+
+.key {
+    align-items: left;
+    width: 20%; 
+    margin-bottom: 2vh;
+}
+
+.info {
+    width: 15px;
+    float: right;
+    padding-left: auto;
+}
+
+.infoDiv {
+    margin-right: 0;
+    margin-left: auto;
+    width: 0;
+    margin-bottom: auto;
+    height: 20px;
+}
+
+.info:hover + .hiddenInfo {
+    display: block;
+}
+
+.mobileHeading {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    width: 80%;
+    align-items: center;
+    position: relative;
+}
+
+.hiddenInfo {
+    display: none;
+    font-size: 12px;
+    width: 20em;
+    margin-top: 18px;
+    margin-right: 0;
+    margin-left: -200px;
+    text-align: start;
+    border: 1px solid grey;
+    padding: 5px;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(52, 51, 51, 0.5); 
+    font-family: Helvetica, Arial;
+    font-style: normal;
+    font-weight: 100;
+    border: 1px solid grey;
+    border-radius: 0.5em;
+    font-size: x-small;
+    position: inherit;
+    z-index: 1;
+}
+
+.infoHeading {
+    margin-bottom: 2px;
+}
+
+.bigCanvas { 
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smallerCanvas { 
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.canvas {
+    margin-bottom: 3.5vh;
+}
+
+@media only screen and (max-width: 700px) {
+    .hiddenInfo {
+        max-width: 110px;
+        margin-left: -110px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .header {
+        font-size: 16px;
+    }
+
+    .infoDiv {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .header {
+        font-size: 12px;
+    }
+
+    .hiddenInfo {
+        font-size: 8px;
+    }
+}
